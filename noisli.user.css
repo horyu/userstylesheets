@@ -1,0 +1,5 @@
+@-moz-document url("https://www.noisli.com/") {
+.ui-slider {
+    border-width: 3px !important;
+}
+}
