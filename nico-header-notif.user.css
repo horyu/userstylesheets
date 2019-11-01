@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         nico-header-notif
+@description  ニコニコのヘッダーの通知ボタンの色を透明に変更
+@namespace    github.com/horyu/
+@version      2019.11.1
+@author       horyu (https://github.com/horyu/)
+@homepageURL  https://github.com/horyu/userstylesheets/
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("nicovideo.jp") {
+  #siteHeaderNotification span.siteHeaderNotifications,
+  #siteHeaderNotification span.siteHeaderNotNotifications {
+    background: none !important;
+  }
+}

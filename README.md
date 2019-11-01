@@ -6,6 +6,16 @@ __noisli__
 
 <a href="noisli.user.css?raw=true">Install Link</a>
 
-環境音やノイズを選択して音量調整できるサイト [Noisli - Improve Focus and Boost Productivity with Background Noise](https://www.noisli.com/) で音量調整バーを太くします
+環境音やノイズを選択して音量調整できるサイト [Noisli - Improve Focus and Boost Productivity with Background Noise](https://www.noisli.com/) で音量調整バーを太くします。
 
 ![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/noisli.png)
+
+---
+
+__nico-header-notif__
+
+<a href="nico-header-notif.user.css?raw=true">Install Link</a>
+
+ニコニコのヘッダーの通知ボタンの色を透明に変更します。
+
+![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/nico-header-notif.png)
