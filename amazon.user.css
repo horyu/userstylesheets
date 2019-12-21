@@ -12,7 +12,8 @@
 @-moz-document domain("amazon.co.jp") {
   #nav-global-location-slot,
   #nav-link-accountList > span:nth-child(odd),
-  #contextualIngressPtLabel_deliveryShortLine
+  #contextualIngressPtLabel_deliveryShortLine,
+  #thankYouMessage > h1
   {
     visibility: hidden;
   }
