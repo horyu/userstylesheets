@@ -19,3 +19,13 @@ __nico-header-notif__
 ニコニコのヘッダーの通知ボタンの色を透明に変更します。
 
 ![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/nico-header-notif.png)
+
+---
+
+__amazon__
+
+<a href="amazon.user.css?raw=true">Install Link</a>
+
+Amazon.co.jpのヘッダーと商品ページ右パネルの住所・アカ名を隠します。
+
+![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/amazon.png)
