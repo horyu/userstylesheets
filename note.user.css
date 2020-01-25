@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         note.com
+@description  note.comの有料記事の価格ボタンを目立たせます。
+@version      2020.1.25
+@author       horyu (https://github.com/horyu/)
+@namespace    github.com/horyu/
+@homepageURL  https://github.com/horyu/userstylesheets/
+@license      WTFPL; http://www.wtfpl.net/
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("note.com") {
+    .o-noteContentHeader__price {
+        background-color: mistyrose !important;
+    }
+    .o-noteContentHeader__price .a-button__inner {
+        font-size: 20px !important;
+    }
+}

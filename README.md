@@ -29,3 +29,14 @@ __amazon__
 Amazon.co.jpのヘッダーと商品ページ右パネルの住所・アカ名を隠します。
 
 ![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/amazon.png)
+
+
+---
+
+__note__
+
+<a href="note.user.css?raw=true">Install Link</a>
+
+note.comの有料記事の価格ボタンを目立たせます。
+
+![ScreenShot](https://raw.githubusercontent.com/horyu/userstylesheets/master/imgs/note.png)
