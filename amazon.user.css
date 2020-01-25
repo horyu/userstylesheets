@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         amazon.co.jp アマゾン
-@description  ヘッダーと商品ページ右パネルの住所・アカ名を隠します。
-@version      2019.12.21
+@description  amazon.co.jp内の個人情報をを隠します。漏れがあれば報告ください。
+@version      2020.1.25
 @author       horyu (https://github.com/horyu/)
 @namespace    github.com/horyu/
 @homepageURL  https://github.com/horyu/userstylesheets/
@@ -10,10 +10,24 @@
 ==/UserStyle== */
 
 @-moz-document domain("amazon.co.jp") {
-  #nav-global-location-slot,
-  #nav-link-accountList > span:nth-child(odd),
-  #contextualIngressPtLabel_deliveryShortLine,
-  #thankYouMessage > h1
+  /* ヘッダー言語設定右 「お届け先（名前）さん（郵便番号）」 */
+  #nav-global-location-slot
+  /* ヘッダー左 「（名前）さんアカウント」 */
+  ,#nav-link-accountList > span:nth-child(odd)
+  /* トップページ左カード 「こんにちは（名前）さん」 */
+  ,.hud-profile-greeting > h2
+  /* 商品ページ右側注文ボックス 「（名前）-（郵便番号）にお届け」 */
+  ,#contextualIngressPtLabel_deliveryShortLine
+  /* 商品ページ（Kindle）右側 無料サンプル送信先 */
+  ,#deliverTo
+  /* 商品購入後ページ 「（名前）様、ありがとうございます！」 */
+  ,#thankYouMessage > h1
+  /* 商品購入後ページ Kindleの配信先 */
+  , #deliverToDevice + span
+  /* 注文履歴 「お届け先（名前）」 */
+  ,.a-popover-trigger > .trigger-text
+  /* 注文履歴 お届け先 ポップバー「個人情報フルセット」 */
+  ,.displayAddressUL
   {
     visibility: hidden;
   }
