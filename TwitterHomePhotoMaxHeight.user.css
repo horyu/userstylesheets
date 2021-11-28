@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           Twitter Home Photo Max Height
+@namespace      github.com/horyu
+@version        2021.11.28
+@description    Homeタイムラインの画像に最大高を設定
+@author         horyu (https://github.com/horyu/)
+==/UserStyle== */
+@-moz-document url("https://twitter.com/home") {
+    article a[href*="/photo/"] {
+        max-height: 317px
+    }
+}
