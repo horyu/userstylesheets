@@ -1,8 +1,16 @@
+# horyu/userstylesheets
+
 このリポジトリは、作ったユーザースタイルシートを（追加できる内容であれば）適当に追加していくところです。
 
----
+## 利用方法
 
-__TwitterHomePhotoMaxHeight__
+1. ブラウザに Stylus をインストールする ([Firefox](https://addons.mozilla.org/ja/firefox/addon/styl-us/), [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=ja&pli=1)）
+2. 公開中のUser StyleSheet から `Install Link` をクリックする
+3. インストールボタンをクリックする
+
+## 公開中のUser StyleSheet
+
+### TwitterHomePhotoMaxHeight
 
 <a href="TwitterHomePhotoMaxHeight.user.css?raw=true">Install Link</a>
 
@@ -12,7 +20,7 @@ TwitterのHomeタイムラインの画像に最大高を設定します。
 
 ---
 
-__noisli__
+### noisli
 
 <a href="noisli.user.css?raw=true">Install Link</a>
 
@@ -22,7 +30,7 @@ __noisli__
 
 ---
 
-__nico-header-notif__
+### nico-header-notif
 
 <a href="nico-header-notif.user.css?raw=true">Install Link</a>
 
@@ -32,7 +40,7 @@ __nico-header-notif__
 
 ---
 
-__amazon__
+### amazon
 
 <a href="amazon.user.css?raw=true">Install Link</a>
 
@@ -43,7 +51,7 @@ Amazon.co.jpのヘッダーと商品ページ右パネルの住所・アカ名�
 
 ---
 
-__note__
+### note
 
 <a href="note.user.css?raw=true">Install Link</a>
 
